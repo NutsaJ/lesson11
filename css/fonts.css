@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url('fonts/Montserrat-VariableFontwght.eot');
+    src: url('fonts/Montserrat-VariableFontwght.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-VariableFontwght.woff2') format('woff2'),
+        url('fonts/Montserrat-VariableFontwght.woff') format('woff'),
+        url('fonts/Montserrat-VariableFontwght.ttf') format('truetype'),
+        url('fonts/Montserrat-VariableFontwght.svg#Montserrat Thin') format('svg');
+}
