@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson11</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="font">
+    <div class="container-fluid p-0">
+        <header class="bg-img px-3 py-4">
+            <nav class="navbar navbar-light">
+                <div class="container-fluid p-3">
+                    <a class="navbar-brand" href="#"><img class="col-5" src="img/logo.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span> <i class="fa-solid fa-bars text-light fs-2"></i></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end c-background" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">HOT BURGERS</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact us</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2 c-background btn-outline-dark" type="search"
+                                    placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-dark" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav class="nav align-items-center justify-content-between p-2 mb-5">
+                <img class="w-100 logo-img" src="img/logo.png" alt="logo">
+                <ul class="d-flex">
+                    <li class="list-unstyled"><a class="fs-6 text-light mx-2 text-decoration-none" href="index.html">Home</a></li>
+                    <li class="list-unstyled"><a class="fs-6 text-light mx-2 text-decoration-none" href="#">About</a></li>
+                    <li class="list-unstyled"><a class="fs-6 text-light mx-2 text-decoration-none" href="#">Testimonials</a></li>
+                    <li class="list-unstyled"><a class="fs-6 text-light mx-2 text-decoration-none" href="#">Home</a></li>
+                    <li class="list-unstyled"><a class="fs-6 text-light mx-2 text-decoration-none" href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <h1 class="fs-1 ms-3 text-light">Party Time!</h1>
+            <p class="fs-5 my-5 text-light ms-3">
+                Buy any 2 burgers and <br>
+                get 1.5L Pepsi Free
+            </p>
+            <button type="button" class="px-3 ms-3 btn btn-warning py-1 fs-5 rounded-pill c-color c-background mb-media">Order Now
+                <i class="fa-solid fa-arrow-right-long ms-3 fs-6"></i> </button>
+        </header>
+        <section class="p-5 d-flex flex-column align-items-center justify-content-center">
+            <h2 class="c-color fs-3 text-center">
+                Want To Eat?
+            </h2>
+            <p class="fs-5 text-center mt-3">Try our Most Delicious food and it usually take minutes to deliver!</p>
+            <div class="d-flex flex-column mx-5 align-items-center justify-content-center media-md">
+                <div class="m-3 shadow p-3 icon-wrapper">
+                    <div class="d-flex flex-column align-items-center mt-3">
+                        <img class="icon-w" src="img/burger.png" alt="icon of burger">
+                        <p class="media-text mt-3">Burger</p>
+                    </div>
+                </div>
+                <div class="m-3 shadow p-3 align-items-center icon-wrapper">
+                    <div class="d-flex flex-column align-items-center mt-3">
+                        <img class="icon-w" src="img/pizza.png" alt="icon of pizza">
+                        <p class="media-text mt-3">Pizza</p>
+                    </div>
+                </div>
+                <div class="m-3 shadow p-3 align-items-center icon-wrapper">
+                    <div class="d-flex flex-column align-items-center mt-3">
+                        <img class="icon-w" src="img/fries.png" alt="icon of fries">
+                        <p class="media-text mt-3">Fries</p>
+                    </div>
+                </div>
+                <div class="m-3 shadow p-3 align-items-center icon-wrapper">
+                    <div class="d-flex flex-column align-items-center mt-3">
+                        <img class="icon-w" src="img/cupcake.png" alt=" icon of a cupcake">
+                        <p class="media-text mt-3">Cupcake</p>
+                    </div>
+                </div>
+                <div class="m-3 shadow p-3 align-items-center icon-wrapper">
+                    <div class="d-flex flex-column align-items-center mt-3">
+                        <img class="icon-w" src="img/burger.png" alt="icon of a burger">
+                        <p class="media-text mt-3">Burger</p>
+                    </div>
+                </div>
+                <div class="m-3 shadow p-3 align-items-center icon-wrapper">
+                    <div class="d-flex flex-column align-items-center mt-3">
+                        <img class="icon-w" src="img/spaghetti.png" alt="icon of spaghetti">
+                        <p class="media-text mt-3">Spaghetti</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="px-3 pt-3 c-background d-flex align-items-center media-img">
+            <div>
+                <img class="w-100" src="img/delivery.png" alt="image of a courier delivering pizza">
+            </div>
+            <div class="w-100">
+                <h2 class="fs-4 text-light">We Guarantee <br>
+                    30 Minutes Delivery
+                </h2>
+                <p class="fs-6 text-light">
+                    If you’re having a meeting, working late at <br> night and need an extra push.
+                    Let us know and we will be there
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="d-flex flex-column align-items-center">
+                <h2 class="c-color fs-3 text-center mt-5">Our Most Popular Recipes</h2>
+                <p class="fs-5 text-center px-5 pb-5 mt-3">Try our Most Delicious food and it usually take minutes to
+                    deliver!</p>
+                <div class="d-flex flex-column px-1 align-items-center justify-content-center media-lg">
+                    <div class="d-flex flex-column my-2 shadow p-3 mb-5 bg-body rounded align-items-center margin-lg">
+                        <img class="img-wrapper" src="img/sandwich.png" alt="image of a sandwich media-content-lg">
+                        <div class="p-4">
+                            <h3 class="fs-media">Attribute Variation</h3>
+                            <p class="fs-media">Chicken, tommato, green salad, pita, ketchup,….</p>
+                            <div class="d-flex">
+                                <button type="button"
+                                    class="btn btn-warning rounded-pill text-light c-background w-100 fs-media">Order now</button>
+                                <p class="align-self-end mb-0 ms-2 c-color fs-media">$10.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column my-2 shadow p-3 mb-5 bg-body rounded align-items-center margin-lg">
+                        <img class="img-wrapper" src="img/pizzaa.png" alt="image of a pizza">
+                        <div class="p-4">
+                            <h3 class="fs-media">Attribute Variation</h3>
+                            <p class="fs-media">Chicken, tomato, green salad, pita, ketchup,….</p>
+                            <div class="d-flex">
+                                <button type="button"
+                                    class="btn btn-warning rounded-pill text-light c-background w-100 fs-media">Order now</button>
+                                <p class="align-self-end mb-0 ms-2 c-color fs-media">$10.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column my-2 shadow p-3 mb-5 bg-body rounded align-items-center margin-lg">
+                        <img class="img-wrapper" src="img/hamburger.png" alt="image of a burger">
+                        <div class="p-4">
+                            <h3 class="fs-media">Attribute Variation</h3>
+                            <p class="fs-media">Chicken, tomato, green salad, pita, ketchup,….</p>
+                            <div class="d-flex">
+                                <button type="button"
+                                    class="btn btn-warning rounded-pill text-light c-background w-100 fs-media">Order now</button>
+                                <p class="align-self-end mb-0 ms-2 c-color fs-media">$10.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column my-4 shadow p-3 mb-5 bg-body rounded align-items-center margin-lg">
+                        <img class="img-wrapper" src="img/news_image1-min.png" alt="image of a burger">
+                        <div class="p-4">
+                            <h3 class="fs-media">Attribute Variation</h3>
+                            <p class="fs-media">Chicken, tomato, green salad, pita, ketchup,….</p>
+                            <div class="d-flex">
+                                <button type="button"
+                                    class="btn btn-warning rounded-pill text-light c-background w-100 fs-media">Order now</button>
+                                <p class="align-self-end mb-0 ms-2 c-color fs-media">$10.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column my-4 shadow p-3 mb-5 bg-body rounded align-items-center margin-lg">
+                        <img class="img-wrapper" src="img/news_image2-min.png" alt="image of a burger">
+                        <div class="p-4">
+                            <h3 class="fs-media">Attribute Variation</h3>
+                            <p class="fs-media">Chicken, tomato, green salad, pita, ketchup,….</p>
+                            <div class="d-flex">
+                                <button type="button"
+                                    class="btn btn-warning rounded-pill text-light c-background w-100 fs-media">Order now</button>
+                                <p class="align-self-end mb-0 ms-2 c-color fs-media">$10.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column my-4 shadow p-3 mb-5 bg-body rounded align-items-center margin-lg">
+                        <img class="img-wrapper" src="img/news_image3-min.png" alt="image of a burger">
+                        <div class="p-4">
+                            <h3 class="fs-media">Attribute Variation</h3>
+                            <p class="fs-media">Chicken, tomato, green salad, pita, ketchup,….</p>
+                            <div class="d-flex">
+                                <button type="button"
+                                    class="btn btn-warning rounded-pill text-light c-background w-100 fs-media">Order now</button>
+                                <p class="align-self-end mb-0 ms-2 c-color fs-media">$10.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="button"
+                    class="btn btn-warning rounded-pill text-light c-background-two w-50 my-5 btn-w fs-media">Order now</button>
+            </div>
+        </section>
+        <footer class="c-background d-flex align-items-center justify-content-center">
+            <div class="p-5  d-flex flex-column justify-content-center align-items-center media-md">
+                <div class="f-box d-flex mb-5 flex-column shadow p-3 bg-body rounded align-items-center footer-wrapper">
+                    <img class="mb-3 footer-img" src="img/Path 4276.png" alt="icon of a courier">
+                    <h4 class="text-center footer-fs-media">Free shipping on <br> first order</h4>
+                    <div class="divider"></div>
+                    <p class="text-center">Sign up for updates and <br> get free shipping</p>
+                </div>
+                <div class="f-box d-flex mb-5 flex-column shadow p-3 bg-body rounded align-items-center footer-wrapper">
+                    <img class="mb-3 footer-img" src="img/XMLID_386_.png" alt="icon of a courier">
+                    <h4 class="text-center footer-fs-media">30 minutes <br>
+                        delivery</h4>
+                    <div class="divider"></div>
+                    <p class="text-center">Everything you order will be <br> quickly delivered to your door.</p>
+                </div>
+                <div class="f-box d-flex mb-5 flex-column shadow p-3 bg-body rounded align-items-center footer-wrapper">
+                    <img class="mb-3 footer-img" src="img/Path 4281.png" alt="icon of a courier">
+                    <h4 class="text-center footer-fs-media">Best quality <br>
+                        guarantee</h4>
+                    <div class="divider"></div>
+                    <p class="text-center">We use only the best ingredients to <br> cook the tasty fresh food for you.
+                    </p>
+                </div>
+                <div class="f-box d-flex mb-5 flex-column shadow p-3 bg-body rounded align-items-center footer-wrapper">
+                    <img class="mb-3 footer-img" src="img/Group 1366.png" alt="icon of a courier">
+                    <h4 class="text-center footer-fs-media">Variety of <br>
+                        dishes</h4>
+                    <div class="divider"></div>
+                    <p class="text-center">Here you’ll find a  variety of <br>dishes, desserts, and drinks.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
